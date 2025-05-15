@@ -13,43 +13,18 @@
                 <div class="swiper-slide">
                     <div class="slider-card">
                         <div class="img">
-                            <img src="{{ asset('assets/img/head_slide1.webp') }}" alt="" class="img-cover">
-                        </div>
-                        <div class="info section-padding-x pb-70">
-                            <div class="row align-items-end gx-5">
-                                <div class="col-lg-6 offset-lg-2">
-                                    <h1 data-swiper-parallax="-2000" class="js-title"> phoenix </h1>
-                                    <h5 class="fsz-30 mt-30 fw-400"> Redefining Wood <br> Laminates </h5>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="cont pb-30">
-                                        <div class="text fsz-17 fw-300 lh-4">
-                                            Bringing you world-class, high-quality wood laminates that enhance your spaces.
-                                        </div>
-                                        <a href="{{ route('products') }}" class="butn border rounded-pill mt-60 hover-bg-white">
-                                            <span> Our Products <i class="small ms-1 ti-arrow-top-right"></i> </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="slider-card">
-                        <div class="img">
                             <img src="{{ asset('assets/img/head_slide2.webp') }}" alt="" class="img-cover">
                         </div>
                         <div class="info section-padding-x pb-70">
                             <div class="row align-items-end gx-5">
                                 <div class="col-lg-6 offset-lg-2">
                                     <h1 data-swiper-parallax="-2000" class="js-title"> phoenix </h1>
-                                    <h5 class="fsz-30 mt-30 fw-400"> Advanced Technology in <br> Every Panel </h5>
+                                    <h5 class="fsz-30 mt-30 fw-400"> Redefining Your Space </h5>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cont pb-30">
                                         <div class="text fsz-17 fw-300 lh-4">
-                                            India's first 6-foot wide UV-coated laminates and an exclusive range of textured finishes.
+                                            Bringing you world-class, high-quality Pre-Lam Wood Panels
                                         </div>
                                         <a href="{{ route('products') }}" class="butn border rounded-pill mt-60 hover-bg-white">
                                             <span> Our Products <i class="small ms-1 ti-arrow-top-right"></i> </span>
@@ -69,12 +44,37 @@
                             <div class="row align-items-end gx-5">
                                 <div class="col-lg-6 offset-lg-2">
                                     <h1 data-swiper-parallax="-2000" class="js-title"> phoenix </h1>
-                                    <h5 class="fsz-30 mt-30 fw-400"> Design for the <br> Future </h5>
+                                    <h5 class="fsz-30 mt-30 fw-400"> Premium UV Panels </h5>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="cont pb-30">
                                         <div class="text fsz-17 fw-300 lh-4">
-                                            PET Electron Beam cured boards to eco-conscious WPC panels, designed to enhance your space sustainably.
+                                            <span class="fw-bold">India's first 6-foot wide UV-coated Panels</span> Super Matte and High-Gloss
+                                        </div>
+                                        <a href="{{ route('products') }}" class="butn border rounded-pill mt-60 hover-bg-white">
+                                            <span> Our Products <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-card">
+                        <div class="img">
+                            <img src="{{ asset('assets/img/head_slide4.webp') }}" alt="" class="img-cover">
+                        </div>
+                        <div class="info section-padding-x pb-70">
+                            <div class="row align-items-end gx-5">
+                                <div class="col-lg-6 offset-lg-2">
+                                    <h1 data-swiper-parallax="-2000" class="js-title"> phoenix </h1>
+                                    <h5 class="fsz-30 mt-30 fw-400"> Designed for Next Gen </h5>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="cont pb-30">
+                                        <div class="text fsz-17 fw-300 lh-4">
+                                            PET Electron Beam cured boards with self-healing, fire-resistant panels
                                         </div>
                                         <a href="{{ route('products') }}" class="butn border rounded-pill mt-60 hover-bg-white">
                                             <span> Our Products <i class="small ms-1 ti-arrow-top-right"></i> </span>
@@ -96,47 +96,47 @@
     @endsection
     
     <!--  Start experience  -->
-    <section class="tc-experience-style1 section-padding-x">
-        <div class="container-fluid">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-2">
-                    <div class="exp-num mb-100 wow zoomIn" data-wow-delay="0.3s">
-                        <h5 class="fsz-18 text-uppercase"> happy <br> customers </h5>
-                        <h2 class="num"> 100+ </h2>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="img wow">
-                        <img src="{{ asset('assets/img/expx.webp') }}" alt="" class="img-cover">
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="info wow fadeInUp" data-wow-delay="0.3s">
-                        <h3 class="fsz-45 fw-600 mb-30"> Catering  to both modern and traditional aesthetics. </h3>
-                        <div class="text fsz-15 color-666">
-                            phoenix Studio is an archiectural practice based in Boston. We cut ourteeth on designing and creating buildings that are both beautiful and sustainable.
-                        </div>
-                        <a href="#" class="butn rounded-pill mt-50 hover-bg-black bg-white">
-                            <span> Explore More <i class="small ms-1 ti-arrow-top-right"></i> </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="rotate-txt justify-content-lg-end">
-                        <ul>
-                            <li>
-                                <a href="#"> admin@phoenixsurface.com </a>
-                            </li>
-                            <li>
-                                <a href="#"> +91 72597 23125 </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="{{ asset('assets/img/c_line.png') }}" alt="" class="c-line wow">
-    </section>
+    <!--<section class="tc-experience-style1 section-padding-x">-->
+    <!--    <div class="container-fluid">-->
+    <!--        <div class="row justify-content-between align-items-center">-->
+    <!--            <div class="col-lg-2">-->
+    <!--                <div class="exp-num mb-100 wow zoomIn" data-wow-delay="0.3s">-->
+    <!--                    <h5 class="fsz-18 text-uppercase"> happy <br> customers </h5>-->
+    <!--                    <h2 class="num"> 100+ </h2>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-3">-->
+    <!--                <div class="img wow">-->
+    <!--                    <img src="{{ asset('assets/img/expx.webp') }}" alt="" class="img-cover">-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-3">-->
+    <!--                <div class="info wow fadeInUp" data-wow-delay="0.3s">-->
+    <!--                    <h3 class="fsz-45 fw-600 mb-30"> Catering  to both modern and traditional aesthetics. </h3>-->
+    <!--                    <div class="text fsz-15 color-666">-->
+    <!--                        Redefining surfaces with India’s first fully automatic Pre-lam, UV, and PUR lines. Offering 120+ stunning designs and unmatched quality, our innovative sheets combine beauty and durability to cater to modern and traditional aesthetics alike.-->
+    <!--                    </div>-->
+    <!--                    <a href="#" class="butn rounded-pill mt-50 hover-bg-black bg-white">-->
+    <!--                        <span> Explore More <i class="small ms-1 ti-arrow-top-right"></i> </span>-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-2">-->
+    <!--                <div class="rotate-txt justify-content-lg-end">-->
+    <!--                    <ul>-->
+    <!--                        <li>-->
+    <!--                            <a href="#"> admin@phoenixsurface.com </a>-->
+    <!--                        </li>-->
+    <!--                        <li>-->
+    <!--                            <a href="#"> +91 72597 23125 </a>-->
+    <!--                        </li>-->
+    <!--                    </ul>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <img src="{{ asset('assets/img/c_line.png') }}" alt="" class="c-line wow">-->
+    <!--</section>-->
 
 
     <!--  Start services  -->
@@ -148,62 +148,92 @@
                 </div>
                 <div class="services">
                     <div class="row">
-                        <div class="col-lg-3">
-                            <a href="{{ route('product.plb') }}" class="service-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.duralam') }}" class="service-card wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon">
-                                    <i class="la la-hard-hat"></i>
+                                    <img src="{{ asset('assets/img/icon/icon_1.webp') }}" width="25px" />
                                 </div>
-                                <h5 class="fsz-24 mb-20"> Pre-laminated Boards </h5>
+                                <h5 class="fsz-24 mb-20"> DuraLam - Essential Pre-Laminated Panels </h5>
                                 <div class="img">
-                                    <img src="{{ asset('assets/img/services/laminated.webp') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('assets/img/services/duralam-essential-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                 </div>
-                                <div class="text color-666 mt-50">
-                                    Available in solid colors, wood grains, marble touches, and geometric designs.
+                                <div class="text mt-50">
+                                    Explore among countless shades, styles, and designs. That satisfies all your essential needs.
                                 </div>
                                 <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
                             </a>
                         </div>
-                        <div class="col-lg-3">
-                            <a href="#" class="service-card mt-150 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.opulum') }}" class="service-card wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon">
-                                    <i class="la la-bezier-curve"></i>
+                                    <img src="{{ asset('assets/img/icon/icon_2.webp') }}" width="25px" />
                                 </div>
-                                <h5 class="fsz-24 mb-20"> UV Coated Laminates </h5>
+                                <h5 class="fsz-24 mb-20"> Opulum - Exclusive Pre-Laminated Panels </h5>
                                 <div class="img">
-                                    <img src="{{ asset('assets/img/services/uv.webp') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('assets/img/services/opulum-exclusive-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                 </div>
-                                <div class="text color-666 mt-50">
-                                    Choose from High Gloss or Super Matte finishes. Engineered for both beauty and resilience.
+                                <div class="text mt-50">
+                                    Exclusive range of shades made from imported Paper, Especially curated collection for the ones with Finer Tastes.
                                 </div>
                                 <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
                             </a>
                         </div>
-                        <div class="col-lg-3">
-                            <a href="#" class="service-card wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.textura') }}" class="service-card wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="icon">
-                                    <i class="la la-bed"></i>
+                                    <img src="{{ asset('assets/img/icon/icon_3.webp') }}" width="25px" />
                                 </div>
-                                <h5 class="fsz-24 mb-20"> Acrylic Sheets </h5>
+                                <h5 class="fsz-24 mb-20"> Textura - 6Ft Wide Textured Panels </h5>
                                 <div class="img">
-                                    <img src="{{ asset('assets/img/services/acrylic.webp') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('assets/img/services/textura-textured-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                 </div>
-                                <div class="text color-666 mt-50">
-                                    High-clarity acrylic sheets that add luxury and light reflection to any space and durable.
+                                <div class="text mt-50">
+                                    Now you can feel what you see with our textured panels, available on all Prelam Shades.
                                 </div>
                                 <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
                             </a>
                         </div>
-                        <div class="col-lg-3">
-                            <a href="#" class="service-card mt-150 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.uvfinishes') }}" class="service-card wow fadeInUp" data-wow-delay="0.8s">
                                 <div class="icon">
-                                    <i class="la la-comments"></i>
+                                    <img src="{{ asset('assets/img/icon/icon_4.webp') }}" width="25px" />
                                 </div>
-                                <h5 class="fsz-24 mb-20"> PET – Electron Beam (EB) Cured Boards</h5>
+                                <h5 class="fsz-24 mb-20"> The Velvet Collection </h5>
                                 <div class="img">
-                                    <img src="{{ asset('assets/img/services/pet.webp') }}" alt="" class="img-cover">
+                                    <img src="{{ asset('assets/img/services/uv-finishes.webp') }}" alt="" class="img-cover">
                                 </div>
-                                <div class="text color-666 mt-50">
-                                    PET-EB boards feature unmatched durability, scratch resistance, and anti-fingerprint technology.
+                                <div class="text mt-50">
+                                    Luxurious Matte & Gloss UV Panels with smooth, Morden, and Classic finishes panels available up to 6 ft Width.
+                                </div>
+                                <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.lucentacrylic') }}" class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/img/icon/icon_5.webp') }}" width="25px" />
+                                </div>
+                                <h5 class="fsz-24 mb-20"> LucentAcrylic - Acrylic Finishes (8'x4')</h5>
+                                <div class="img">
+                                    <img src="{{ asset('assets/img/services/lucentacrylic-acrylic-finishes.webp') }}" alt="" class="img-cover">
+                                </div>
+                                <div class="text mt-50">
+                                    High-Clarity High-Durability Acrylic Sheets that add color and vibrance to any space deemed fit
+                                </div>
+                                <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="{{ route('product.cuttingedge') }}" class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/img/icon/icon_6.webp') }}" width="25px" />
+                                </div>
+                                <h5 class="fsz-24 mb-20"> PhoenixEdge - The Next Gen (8'x4')</h5>
+                                <div class="img">
+                                    <img src="{{ asset('assets/img/services/cutting-edge-pet-eb-panels.webp') }}" alt="" class="img-cover">
+                                </div>
+                                <div class="text mt-50">
+                                    Super Elegant Finishes along with Anti-Finger, High Stain Resistance, High Scratch Resistance, and many such features
                                 </div>
                                 <span class="arrow"> <i class="ti-arrow-top-right"></i> </span>
                             </a>
@@ -211,7 +241,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white">
+                    <a href="{{ route('products') }}" class="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white">
                         <span> Explore More <i class="small ms-1 ti-arrow-top-right"></i> </span>
                     </a>
                 </div>
@@ -238,13 +268,13 @@
                                 <div class="accordion-item">
                                   <div class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                        <span class="num"> 1 / </span> <h3> Fully Automated Manufacturing </h3>
+                                        <span class="num"> 1 / </span> <h3> Endless Design Options </h3>
                                     </button>
                                   </div>
                                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionProcess">
                                     <div class="accordion-body">
                                         <div class="text">
-                                            Our high-tech, completely automated facility promises perfect quality and consistency every time with zero manual defects and zero errors-only flawless artistry in every instance.
+                                            With over 120 stunning styles, Phoenix offers choices for every taste and need.
                                         </div>
                                     </div>
                                   </div>
@@ -252,13 +282,13 @@
                                 <div class="accordion-item">
                                   <div class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                        <span class="num"> 2 / </span> <h3> UV Coating Pioneers </h3>
+                                        <span class="num"> 2 / </span> <h3> Top-Notch Quality </h3>
                                     </button>
                                   </div>
                                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionProcess">
                                     <div class="accordion-body">
                                         <div class="text">
-                                            The first UV-coated laminates in India with a 6-foot wide laminate capacity at 72 feet per minute, Phoenix standardizes high-gloss and super matt finishes that are spectacular to view and highly durable.
+                                            Premium Material and advanced technology ensure products that last to impress.
                                         </div>
                                     </div>
                                   </div>
@@ -266,13 +296,13 @@
                                 <div class="accordion-item">
                                   <div class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                        <span class="num"> 3 / </span> <h3> Innovative Materials & Textures </h3>
+                                        <span class="num"> 3 / </span> <h3> Customer-Centric Approach </h3>
                                     </button>
                                   </div>
                                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionProcess">
                                     <div class="accordion-body">
                                         <div class="text">
-                                            From electron beam-cured PET boards to detailed geometric patterns, the innovation and uniqueness in our products for every surface will transform a common space into something more wonderful.
+                                            Reliable service and accessible solutions make Phoenix a favorite across India.
                                         </div>
                                     </div>
                                   </div>
@@ -302,7 +332,7 @@
             <div class="title mb-70">
                 <h2 class="fsz-45"> Gallery </h2>
             </div>
-            <div class="tabs-links mb-50">
+            {{-- <div class="tabs-links mb-50">
                 <div class="row align-items-center">
                     <div class="col-lg-9">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -315,12 +345,12 @@
                             <li class="nav-item" role="presentation">
                               <button class="nav-link" id="pills-proj3-tab" data-bs-toggle="pill" data-bs-target="#pills-proj1" type="button">Interior</button>
                             </li>
-                            {{-- <li class="nav-item" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-proj4-tab" data-bs-toggle="pill" data-bs-target="#pills-proj2" type="button">Landscape</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-proj5-tab" data-bs-toggle="pill" data-bs-target="#pills-proj1" type="button">Furniture</button>
-                            </li> --}}
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0 text-lg-end">
@@ -329,7 +359,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="projects">
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-proj1" role="tabpanel" aria-labelledby="pills-proj1-tab">
@@ -338,29 +368,57 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="project-card">
-                                            <a href="assets/img/projects/proj1.jpg') }}" class="img" data-fancybox="proj">
-                                                <img src="{{ asset('assets/img/projects/proj1.jpg') }}" alt="" class="img-cover">
+                                            <a href="{{ asset('assets/img/projects/proj8.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj8.webp') }}" alt="" class="img-cover">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="project-card">
-                                            <a href="assets/img/projects/proj2.jpg') }}" class="img" data-fancybox="proj">
-                                                <img src="{{ asset('assets/img/projects/proj2.jpg') }}" alt="" class="img-cover">
+                                            <a href="{{ asset('assets/img/projects/proj2.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj2.webp') }}" alt="" class="img-cover">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="project-card">
-                                            <a href="assets/img/projects/proj3.jpg') }}" class="img" data-fancybox="proj">
-                                                <img src="{{ asset('assets/img/projects/proj3.jpg') }}" alt="" class="img-cover">
+                                            <a href="{{ asset('assets/img/projects/proj3.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj3.webp') }}" alt="" class="img-cover">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="project-card">
-                                            <a href="assets/img/projects/proj1.jpg') }}" class="img" data-fancybox="proj">
-                                                <img src="{{ asset('assets/img/projects/proj1.jpg') }}" alt="" class="img-cover">
+                                            <a href="{{ asset('assets/img/projects/proj1.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj1.webp') }}" alt="" class="img-cover">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-card">
+                                            <a href="{{ asset('assets/img/projects/proj5.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj5.webp') }}" alt="" class="img-cover">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-card">
+                                            <a href="{{ asset('assets/img/projects/proj6.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj6.webp') }}" alt="" class="img-cover">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-card">
+                                            <a href="{{ asset('assets/img/projects/proj7.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj7.webp') }}" alt="" class="img-cover">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-card">
+                                            <a href="{{ asset('assets/img/projects/proj4.webp') }}" class="img" data-fancybox="proj">
+                                                <img src="{{ asset('assets/img/projects/proj4.webp') }}" alt="" class="img-cover">
                                             </a>
                                         </div>
                                     </div>
@@ -534,7 +592,7 @@
 
 
     <!--  Start chat  -->
-    <section class="tc-chat-style1">
+    <section class="tc-chat-style1" style="background-image:url('assets/img/prc_bg.png')">
         <div class="container">
             <div class="content">
                 <a href="#" class="xl-text"> hello@phoenixsurface.com </a>

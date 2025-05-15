@@ -47,6 +47,18 @@
     @yield('pagestyles')
 
     @livewireStyles
+
+    <style>
+        .navbar-toggler {
+            padding: .25rem .75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: transparent;
+            border: 1px solid #000000;
+            border-radius: .25rem;
+            transition: box-shadow .15sease-in-out;
+        }
+    </style>
 </head>
 
 <body class="@yield('bodyclass')">

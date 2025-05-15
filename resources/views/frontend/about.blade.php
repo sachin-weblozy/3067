@@ -46,28 +46,28 @@
                         <img src="{{ asset('assets/img/leaf.webp') }}" alt="" class="icon">
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-7">
                     <div class="info wow fadeInUp slow" data-wow-delay="0.2s">
                         <div class="text fsz-25 fw-500 mb-20">
                             Designing for the bold, built to last—Phoenix surfaces are a testament to quality, durability, and style.
                         </div>
                         <div class="text fsz-25 fw-500 mb-20">
-                            From our state-of-the-art manufacturing facilities in Rajasthan, India, we deliver an extensive range of products that elevate any space, combining creativity and resilience. Whether it’s our textured woods, UV-coated laminates, or PET – EB boards, Phoenix offers solutions that meet the demands of modern living, without compromising on beauty or functionality.
+                            From our state-of-the-art manufacturing facility in Rajasthan, India. We deliver an extensive range of products that elevate any space, combining creativity and resilience. Whether it’s our textured wood panels, UV-coated Boards, or EB- panels, we at Phoenix offer solutions that meet the demands of modern living without compromising on beauty or functionality.
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="numbers mt-5 mt-lg-0">
-                        <div class="number-card wow zoomIn slow" data-wow-delay="0.4s">
-                            <h2 class="numb"> 95% </h2>
-                            <small> customer satisfaction rate </small>
-                        </div>
-                        <div class="number-card wow zoomIn slow" data-wow-delay="0.6s">
-                            <h2 class="numb"> 100% </h2>
-                            <small> unique textures and finishes </small>
-                        </div>
-                    </div>
-                </div>
+                <!--<div class="col-lg-2">-->
+                <!--    <div class="numbers mt-5 mt-lg-0">-->
+                <!--        <div class="number-card wow zoomIn slow" data-wow-delay="0.4s">-->
+                <!--            <h2 class="numb"> 95% </h2>-->
+                <!--            <small> customer satisfaction rate </small>-->
+                <!--        </div>-->
+                <!--        <div class="number-card wow zoomIn slow" data-wow-delay="0.6s">-->
+                <!--            <h2 class="numb"> 100% </h2>-->
+                <!--            <small> unique textures and finishes </small>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
             </div>
         </div>
     </section>
@@ -106,7 +106,7 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionProcess">
                                     <div class="accordion-body">
                                         <div class="text">
-                                            From textured laminates to high-gloss and super-matte finishes, precision is the core of our product development.
+                                            Precision is the core of our product development, from textured Panels to high-gloss and super-matte finishes.
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@
                                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionProcess">
                                     <div class="accordion-body">
                                         <div class="text">
-                                            Our customers are at the heart of everything we do. From understanding specific design needs to offering personalized solutions, we ensure 95% customer satisfaction.
+                                            Our customers are at the heart of everything we do. From understanding specific design needs to offering personalized solutions, we ensure service beyond measure.
                                         </div>
                                     </div>
                                     </div>

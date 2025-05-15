@@ -4,8 +4,11 @@
             <div class="row gx-0">
                 <div class="col-lg-4">
                     <div class="info-side">
-                        <div class="text fsz-24 color-333 lh-3 fw-600">
-                            We specialize in premium wood laminates that blend modern innovation with timeless craftsmanship. We offer a wide range of high-quality, eco-friendly panels designed to enhance both traditional and contemporary spaces. 
+                    <a class="footer-logo" href="{{ route('index') }}">
+            <img src="{{ asset('logo1x.png') }}" alt="" class="logo">
+        </a>
+                        <div class="text  color-333 lh-3 ">
+                            We specialize in Prelamination solutions that blend modern innovation with timeless craftsmanship. We offer a wide range of high-quality panels and other surface solutions designed to enhance spaces and stand the test of time
                         </div>
                         <div class="foot-social mt-50">
                             <a href="https://in.pinterest.com/Phoenixsurfacesolution/"> <i class="fab fa-pinterest"></i> </a>
@@ -32,9 +35,11 @@
                     <div class="branch-card">
                         <h5 class="mb-20 mt-5 mt-lg-0 fw-600"> Reach Us</h5>
                         <ul class="footer-links">
-                            <li> <a href="#"> Kishangarh, Rajasthan </a> </li>
-                            <li> <a href="#"> admin@phoenixsurface.com </a> </li>
-                            <li> <a href="#"> +91 72597 23125 </a> </li>
+                            <li> <a href="#"> F408, Laxmi Narayan Vihar, Madanganj, Kishangarh, Rajasthan 305801 </a> </li>
+                            <!--<li>Sales: <a href="mailto:Sale@phoenixsurface.com"> Sale@phoenixsurface.com </a> </li>-->
+                            <li>Info: <a href="mailto:hello@phoenixsurface.com"> hello@phoenixsurface.com </a> </li>
+                            <!--<li>Career: <a href="mailto:Anand.Gopalani@phoenixsurface.com"> Anand.Gopalani@phoenixsurface.com </a> </li>-->
+                            <li>Call: <a href="tel:+918003591308"> +91 80035 91308 </a> </li>
                         </ul>
                     </div>
                 </div>

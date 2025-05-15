@@ -7,11 +7,11 @@
     @endsection
 
     @section('breadcrumb')
-    <header class="tc-inner-header-style1">
+    <header class="tc-inner-header-style1" style="background-image: url({{ asset('assets/img/breadcrumb6.webp') }})">
         <div class="container">
             <div class="info col-lg-7">
-                <h1 class="js-title"> products </h1>
-                <div class="text fsz-18 color-666"> Products crafted for those who demand the best. </div>
+                <h1 class="js-title text-white"> products </h1>
+                <div class="text fsz-18 text-white"> Products crafted for those who demand the best. </div>
             </div>
         </div>
     </header>
@@ -27,61 +27,74 @@
                         <div class="row mixitup">
                             <div class="col-lg-4 mix-item">
                                 <div class="case-card">
-                                    <a href="{{ route('product.plb') }}" class="img">
-                                        <img src="{{ asset('assets/img/services/pre-laminated-boards.webp') }}" alt="" class="img-cover">
+                                    <a href="{{ route('product.duralam') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/duralam-essential-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                     </a>
                                     <div class="info">
-                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.plb') }}" class="hover-orange1">
-                                            Pre-Laminated Boards </a> </h3>
-                                        <div class="text color-666"> Pre-finished with a decorative surface, they are ready to install without the need for further treatments. </div>
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.duralam') }}" class="hover-orange1">
+                                            DuraLam - Essential Pre-Laminated Panels </a> </h3>
+                                        <div class="text color-666"> Durable and versatile panels available in 75+ shades and multiple finishes, perfect for essential pre-lamination needs. </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mix-item">
                                 <div class="case-card">
-                                    <a href="{{ route('product.tl') }}" class="img">
-                                        <img src="{{ asset('assets/img/services/textured-laminates.webp') }}" alt="" class="img-cover">
+                                    <a href="{{ route('product.opulum') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/opulum-exclusive-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                     </a>
                                     <div class="info">
-                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.tl') }}" class="hover-orange1">
-                                            Textured Laminates </a> </h3>
-                                        <div class="text color-666"> Adds a tactile richness with a variety of finishes including wood grains, fabric-inspired surfaces, and geometric patterns.</div>
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.opulum') }}" class="hover-orange1">
+                                            Opulum - Exclusive Pre-Laminated Panels </a> </h3>
+                                        <div class="text color-666"> Premium pre-laminated panels with refined finishes and 45+ shades, designed to elevate your interiors.</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mix-item">
                                 <div class="case-card">
-                                    <a href="{{ route('product.uv') }}" class="img">
-                                        <img src="{{ asset('assets/img/services/uv-coated-laminates.webp') }}" alt="" class="img-cover">
+                                    <a href="{{ route('product.textura') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/textura-textured-pre-laminated-panels.webp') }}" alt="" class="img-cover">
                                     </a>
                                     <div class="info">
-                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.uv') }}" class="hover-orange1">
-                                            UV-Coated Laminates </a> </h3>
-                                        <div class="text color-666"> Comes in both High Gloss and Super Matte finishes, offering a sleek, polished look with anti-fingerprint and anti-yellowing properties </div>
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.textura') }}" class="hover-orange1">
+                                            Textura - Textured Pre-Laminated Panels (6') </a> </h3>
+                                        <div class="text color-666"> Unique textured panels with 4 patterns, combining aesthetics and functionality for a bold look. </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mix-item">
                                 <div class="case-card">
-                                    <a href="{{ route('product.pet') }}" class="img">
-                                        <img src="{{ asset('assets/img/services/pet-boards.webp') }}" alt="" class="img-cover">
+                                    <a href="{{ route('product.uvfinishes') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/uv-finishes.webp') }}" alt="" class="img-cover">
                                     </a>
                                     <div class="info">
-                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.pet') }}" class="hover-orange1">
-                                            PET – EB Boards </a> </h3>
-                                        <div class="text color-666"> These panels boast 6H hardness, anti-scratch, and anti-fingerprint properties, making them ideal for high-traffic areas. </div>
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.uvfinishes') }}" class="hover-orange1">
+                                            UV Finishes - India’s First 6th Width </a> </h3>
+                                        <div class="text color-666"> Super stunning matte & gloss UV panels offer a captivating modern look. Both are available up to 6’ Width. </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 mix-item">
                                 <div class="case-card">
-                                    <a href="{{ route('product.plb') }}" class="img">
-                                        <img src="{{ asset('assets/img/services/acrylic-sheets.webp') }}" alt="" class="img-cover">
+                                    <a href="{{ route('product.lucentacrylic') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/lucentacrylic-acrylic-finishes.webp') }}" alt="" class="img-cover">
                                     </a>
                                     <div class="info">
-                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.plb') }}" class="hover-orange1">
-                                            Acrylic Sheets </a> </h3>
-                                        <div class="text color-666"> Combining stunning aesthetics with exceptional durability, offering a high-gloss, light-reflective surface perfect.
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.lucentacrylic') }}" class="hover-orange1">
+                                            LucentAcrylic - Acrylic Finishes (8'x4') </a> </h3>
+                                        <div class="text color-666"> Acrylic panels with 70+ shades, anti-scratch, anti-yellowing, and moisture-resistant properties for long-lasting beauty.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mix-item">
+                                <div class="case-card">
+                                    <a href="{{ route('product.cuttingedge') }}" class="img">
+                                        <img src="{{ asset('assets/img/services/cutting-edge-pet-eb-panels.webp') }}" alt="" class="img-cover">
+                                    </a>
+                                    <div class="info">
+                                        <h3 class="title fsz-35 mb-20"> <a href="{{ route('product.cuttingedge') }}" class="hover-orange1">
+                                            PhoenixEdge - The Next Gen (8'x4') </a> </h3>
+                                        <div class="text color-666"> Cutting-edge PET-EB panels with self-healing, fire resistance, and a longer lifespan, available in high-gloss and super-matte finishes.
                                         </div>
                                     </div>
                                 </div>

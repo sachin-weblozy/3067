@@ -19,25 +19,28 @@ class HomeController extends Controller
         return view('frontend.faq');
     }
 
-    public function plb(){
-        return view('frontend.product.plb');
+    public function duralam(){
+        return view('frontend.product.duralam');
     }
-    public function tl(){
-        return view('frontend.product.tl');
+    public function opulum(){
+        return view('frontend.product.opulum');
     }
-    public function uv(){
-        return view('frontend.product.uv');
+    public function textura(){
+        return view('frontend.product.textura');
     }
-    public function pet(){
-        return view('frontend.product.pet');
+    public function uvfinishes(){
+        return view('frontend.product.uvfinishes');
     }
-    public function as(){
-        return view('frontend.product.as');
+    public function lucentacrylic(){
+        return view('frontend.product.lucentacrylic');
+    }
+    public function cuttingedge(){
+        return view('frontend.product.cuttingedge');
     }
 
-    // public function about(){
-    //     return view('frontend.about');
-    // }
+    public function disclaimer(){
+        return view('frontend.disclaimer');
+    }
     public function contact(){
         return view('frontend.contact');
     }

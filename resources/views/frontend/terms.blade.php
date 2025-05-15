@@ -7,11 +7,11 @@
     @endsection
 
     @section('breadcrumb')
-    <header class="tc-inner-header-style1 pb-100">
+    <header class="tc-inner-header-style1 pb-100" style="background-image: url({{ asset('assets/img/breadcrumb7.webp') }})">
         <div class="container">
             <div class="info">
-                <h1 class="js-title"> terms & conditions </h1>
-                <div class="text fsz-18 color-666"> Want to chat further? We’d love to hear from you, let us
+                <h1 class="js-title text-white"> terms & conditions </h1>
+                <div class="text fsz-18 text-white"> Want to chat further? We’d love to hear from you, let us
                     oppoturnity <br> to make your dream become reality </div>
             </div>
         </div>
